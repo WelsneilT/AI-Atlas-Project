@@ -1,0 +1,22 @@
+{
+  "profiles": [
+    {
+      "id": "student_123",
+      "personal_info": {
+        "name": "An Nguyen",
+        "major": "Computer Science",
+        "academic_year": 3
+      },
+      "learning_preferences": {
+        "learning_style": {
+          "type": "Visual",
+          "details": "Prefers diagrams, mind maps, and videos."
+        },
+        "study_patterns": {
+          "best_time": "Morning (9 AM - 12 PM)",
+          "session_length": "45-minute focus, 15-minute break"
+        }
+      }
+    }
+  ]
+}

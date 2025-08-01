@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "task_01",
+      "title": "Submit AI project report",
+      "due": "2025-08-10T23:59:00Z",
+      "status": "needsAction",
+      "priority": "high"
+    },
+    {
+      "id": "task_02",
+      "title": "Read Chapter 5 - Operating Systems",
+      "due": "2025-08-08T23:59:00Z",
+      "status": "needsAction",
+      "priority": "medium"
+    }
+  ]
+}
