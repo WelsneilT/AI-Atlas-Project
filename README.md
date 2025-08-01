@@ -13,27 +13,30 @@
 
 ATLAS is built on a multi-agent graph architecture powered by LangGraph. The workflow is orchestrated by a central Coordinator agent that routes tasks based on the user's needs.
 
+```text
 User Request
-│
-▼
+     │
+     ▼
 ┌───────────────────┐
-│ 🧠 Coordinator │ (Analyzes request and decides the required agents)
+│ 🧠 Coordinator    │  (Analyzes request and decides the required agents)
 └───────────────────┘
-│
-▼
+     │
+     ▼
 ┌───────────────────┐
-│ Router │
+│      Router       │
 └───────────────────┘
-│
-├───► 📅 Planner Agent (Manages schedule, tasks, creates plans)
-│
-├───► 🔎 NoteWriter Agent (Researches topics, creates summaries)
-│
-└───► 🌱 Advisor Agent (Provides strategic study advice)
-│
-▼
+     │
+     ├───► 📅 **Planner Agent** (Manages schedule, tasks, creates plans)
+     │
+     ├───► 🔎 **NoteWriter Agent** (Researches topics, creates summaries)
+     │
+     └───► 🌱 **Advisor Agent** (Provides strategic study advice)
+     │
+     ▼
 ┌───────────────────┐
-│ Final Response │ (Aggregated results from all active agents)
+│ Final Response    │  (Aggregated results from all active agents)
+└───────────────────┘
+```
 
 ### Meet the Agents
 
